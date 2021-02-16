@@ -45,7 +45,7 @@ export default function Input() {
     // Log out the synthetic event object 'evt' and see for yourself.
     const { value } = evt.target;
 
-    /* STEP 4 */
+    // /* STEP 4 */
     setInputValue(value);
   };
   const reset = () => {
